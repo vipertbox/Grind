@@ -1,0 +1,33 @@
+name = "cfw" #Nama worker huruf kecil semua
+main = "_worker.js"
+compatibility_date = "2025-11-05"
+workers_dev = false
+
+
+routes = [
+  { pattern = "v88.bug.com", custom_domain = true },
+  { pattern = "support.zoom.us.v88.bug.com", custom_domain = true },
+  { pattern = "collection.linefriends.com.v88.bug.com", custom_domain = true },
+  { pattern = "df.game.naver.com.v88.bug.com", custom_domain = true },
+  { pattern = "ava.game.naver.com.v88.bug.com", custom_domain = true },
+  { pattern = "api24-normal.tiktokv.com.v88.bug.com", custom_domain = true },
+  { pattern = "api24-normal-useast1a.tiktokv.com.v88.bug.com", custom_domain = true },
+  { pattern = "api24-normal-alisg.tiktokv.com.v88.bug.com", custom_domain = true },
+  { pattern = "www.instagram.com.v88.bug.com", custom_domain = true },
+  { pattern = "www.pubgmobile.com.v88.bug.com", custom_domain = true },
+  { pattern = "www.arenaofvalor.com.v88.bug.com", custom_domain = true },
+  { pattern = "www.freefiremobile.com.v88.bug.com", custom_domain = true },
+  { pattern = "dfsuporte.garena.com.v88.bug.com", custom_domain = true },
+  { pattern = "suporte.garena.com.v88.bug.com", custom_domain = true },
+  { pattern = "bcmsuporte.garena.com.v88.bug.com", custom_domain = true },
+  { pattern = "ffsuporte.garena.com.v88.bug.com", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.v88.bug.com", custom_domain = true },
+  { pattern = "investors.spotify.com.v88.bug.com", custom_domain = true },
+  { pattern = "partner.catchplay.com.v88.bug.com", custom_domain = true },
+  { pattern = "support-id.catchplay.com.v88.bug.com", custom_domain = true },
+  { pattern = "support-sg.catchplay.com.v88.bug.com", custom_domain = true },
+  { pattern = "support-tw.catchplay.com.v88.bug.com", custom_domain = true },
+  { pattern = "creativeservices.netflix.com.v88.bug.com", custom_domain = true },
+  { pattern = "help.viu.com.v88.bug.com", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.v88.bug.com", custom_domain = true }
+  ]
